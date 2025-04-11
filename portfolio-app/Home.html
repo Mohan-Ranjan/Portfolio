@@ -1,0 +1,55 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SHANMUGARATNAM MOHANARANJAN</title>
+    <link rel="stylesheet" href="/Users/ranjan/Desktop/Portfolio/portfolio-app/styles.css">
+</head>
+
+
+    <div className="min-h-screen bg-gradient-to-r from-pink-500 to-yellow-300 text-white text-center">
+      <header className="bg-black bg-opacity-80 p-4 fixed w-full top-0">
+        <h1 className="text-xl font-bold">My Portfolio</h1>
+        <nav>
+          <ul className="flex justify-center space-x-6">
+            <li><a href="/Users/ranjan/Desktop/Portfolio/portfolio-app/Home.html" className="hover:text-yellow-400">Home</a></li>
+            <li><a href="/Users/ranjan/Desktop/Portfolio/portfolio-app/about.html" className="hover:text-yellow-400">About</a></li>
+            <li><a href="/Users/ranjan/Desktop/Portfolio/portfolio-app/projects.html" className="hover:text-yellow-400">Projects</a></li>
+            <li><a href="/Users/ranjan/Desktop/Portfolio/portfolio-app/contact.html" className="hover:text-yellow-400">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <motion.section className="h-screen flex flex-col justify-center items-center px-4" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
+        <h2 className="text-4xl font-bold">Hi, I'm <span className="text-yellow-300"> Mohanaranjan Shanmugaratnam</span></h2>
+        <p className="text-lg mt-2">A passionate Developer & Designer</p>
+        <a href="#projects" className="mt-4 px-6 py-3 bg-yellow-400 text-black rounded-lg font-bold hover:bg-yellow-500">View My Work</a>
+      </motion.section>
+
+      <section id="about" className="p-10 bg-white text-black rounded-t-3xl">
+        <h2 className="text-3xl font-bold">About Me</h2>
+        <p className="mt-4">I specialize in building modern, responsive, and dynamic web applications.</p>
+      </section>
+
+      <section id="projects" className="p-10 bg-gray-800">
+        <h2 className="text-3xl font-bold">My Projects</h2>
+        <p className="mt-4">Check out some of my latest work below.</p>
+      </section>
+
+      <section id="contact" className="p-10 bg-white text-black rounded-b-3xl">
+        <h2 className="text-3xl font-bold">Contact Me</h2>
+        <p className="mt-4">Email: your@email.com</p>
+      </section>
+
+      <footer className="bg-black p-4 text-white">
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+      </footer>
+    </div>
+</html>
+
+
